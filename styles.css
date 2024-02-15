@@ -43,6 +43,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+    vertical-align: middle;
 }
 #content {
     align-items: center;
@@ -50,7 +51,8 @@ body {
     flex-direction: column;
     min-width: fit-content;
     position: relative;
-    padding-top: 56px;
+    justify-content: center;
+    align-items: center;
 }
 #container {
     display: flex;
