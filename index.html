@@ -13,6 +13,17 @@
         </div>
     </nav>
 <body>
+        <script>
+        var password = "february";
+        (function passcodeprotect() {
+           var passcode = prompt("Enter PassCode");
+           while (passcode !== password) {
+              alert("Incorrect PassCode");
+              return passcodeprotect();
+           }
+        }());
+        alert('Welcome To The Barlows Support!');
+     </script>
         <div class="search-box">
               <input class="form-control me-2" type="text" placeholder="Search" id="searchbar" onkeyup="filterLP(event)"/>  
         </div>
