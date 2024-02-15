@@ -98,7 +98,6 @@ img {
     /* Adjustments for mobile view */
     .search-box {
         margin: 20px auto; /* Adjust margin for better spacing */
-        margin-bottom: -45px !important;
     }
     
     .search-box input[type="text"] {
@@ -107,7 +106,8 @@ img {
     }
     
     #container .image_container {
-        width: 45%; /* Adjust width for better responsiveness */
+        width: 25%; /* Adjust width for better responsiveness */
         height: 45%;
+        margin: 25px !important;
     }
 }
