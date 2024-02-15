@@ -98,6 +98,7 @@ img {
     /* Adjustments for mobile view */
     .search-box {
         margin: 20px auto; /* Adjust margin for better spacing */
+        margin-bottom: -45px !important;
     }
     
     .search-box input[type="text"] {
