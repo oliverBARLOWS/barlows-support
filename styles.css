@@ -101,11 +101,12 @@ img {
     }
     
     .search-box input[type="text"] {
-        width: 90%; /* Adjust width for better responsiveness */
+        width: 80%; /* Adjust width for better responsiveness */
         max-width: 500px; /* Set max-width to prevent excessive stretching */
     }
     
     #container .image_container {
         width: 45%; /* Adjust width for better responsiveness */
+        height: 45%;
     }
 }
