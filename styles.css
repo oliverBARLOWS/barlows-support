@@ -93,3 +93,19 @@ img {
 .hidden {
     display: none;
 }
+/* Mobile styles */
+@media screen and (max-width: 768px) {
+    /* Adjustments for mobile view */
+    .search-box {
+        margin: 20px auto; /* Adjust margin for better spacing */
+    }
+    
+    .search-box input[type="text"] {
+        width: 90%; /* Adjust width for better responsiveness */
+        max-width: 500px; /* Set max-width to prevent excessive stretching */
+    }
+    
+    #container .image_container {
+        width: 45%; /* Adjust width for better responsiveness */
+    }
+}
